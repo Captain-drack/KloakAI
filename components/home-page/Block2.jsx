@@ -5,7 +5,7 @@ const Block2 = () => {
     {
       icon: "/images/icon/Removebg-Preview.png",
       title: "Data analysis co-pilot",
-      description: "Provides advanced data analysis, generating actionable insights for the organization.",
+      description: "Provides advanced data analysis, generating actionable insights for the organizations.",
     },
     {
       icon: "/images/icon/Employee-info-folder.png",
