@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Block2 = () => {
   const data = [
     {
@@ -42,7 +40,7 @@ const Block2 = () => {
             data-aos-delay={`${index * 100}`}
           >
             <div className="icon d-flex align-items-center justify-content-center">
-              <Image
+              <img
                 width={180}
                 height={200}
                 layout="intrinsic"
@@ -54,7 +52,7 @@ const Block2 = () => {
             <h4 className="text-white mb-10 mt-25">{item.title}</h4>
             <p className="text-white opacity-75 mb-25">{item.description}</p>
             <a href="#" className="arrow tran3s">
-              <Image
+              <img
                 src="/images/icon/icon_80.svg"
                 alt="shape"
                 width={50}

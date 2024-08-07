@@ -7,7 +7,6 @@ import BlockFeatureList from "../../components/home-page/BlockFeatureList";
 import Blog from "../../components/home-page/Blog";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import Footer from "../../components/home-page/Footer";
-import Image from "next/image";
 
 const KloakAI = () => {
   return (
@@ -42,7 +41,7 @@ const KloakAI = () => {
         {/* /.container */}
 
         <div className="illustration-holder" data-aos="fade-right">
-          <Image
+          <img
             width={697}
             height={694}
             layout="intrinsic"
@@ -112,7 +111,7 @@ const KloakAI = () => {
               data-aos="fade-right"
             >
               <div className="illustration-holder md-mt-50 pe-xxl-1 pe-xl-5 pe-lg-4">
-                <Image
+                <img
                   width={569}
                   height={559}
                   layout="intrinsic"
@@ -160,7 +159,7 @@ const KloakAI = () => {
 			*/}
       <div className="footer-style-eight theme-basic-footer mt-150 mb-150">
         <div className="top-footer zn2 position-relative">
-          <Image
+          <img
             src="/images/shape/shape_107.svg"
             alt="shape"
             className="lazy-img shapes shape-one"
