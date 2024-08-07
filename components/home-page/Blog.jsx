@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const blogPosts = [
   {
     id: 1,
@@ -39,7 +41,7 @@ const Blog = () => {
             data-aos="fade-up"
             data-aos-delay={index * 100 + 100}
           >
-            <img src={post.logo} alt="logo" className="user-image-profile" />
+            <Image src={post.logo} alt="logo" className="user-image-profile" width={150} height={150} />
             <div className="post-data mt-50 lg-mt-50">
               <h4 className="tran3s blog-title text-white mt-20 mb-55 lg-mb-30">
                 {post.title}

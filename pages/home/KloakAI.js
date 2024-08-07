@@ -160,10 +160,12 @@ const KloakAI = () => {
 			*/}
       <div className="footer-style-eight theme-basic-footer mt-150 mb-150">
         <div className="top-footer zn2 position-relative">
-          <img
+          <Image
             src="/images/shape/shape_107.svg"
             alt="shape"
             className="lazy-img shapes shape-one"
+            width={150}
+            height={150}
           />
           <div className="container">
             <div className="inner-wrapper m-auto">
