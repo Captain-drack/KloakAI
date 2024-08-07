@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/Header";
 import Hero from "../../components/home-page/Hero";
