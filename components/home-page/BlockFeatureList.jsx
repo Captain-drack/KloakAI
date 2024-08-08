@@ -21,7 +21,7 @@ const BlockFeatureList = () => {
     <div className="block-style-three ps-xxl-5" data-aos="fade-left">
       <div className="title-style-nine">
         <h2 className="main-title text-white">
-          Personalized <span>AI Assistance</span> such as.
+          How does <span>KloakAI</span> keep public sector data safe.
         </h2>
       </div>
       <p className="text-md text-white opacity-75 pt-20 pb-30 lg-pb-20">

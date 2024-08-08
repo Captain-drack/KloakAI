@@ -48,6 +48,13 @@ const KloakAI = () => {
             src="/images/assets/Image with removed background.png"
             alt="illustration"
             className="main-illustration lazy-img"
+            style={{
+              width: "100%",
+              height: "auto",
+              maxWidth: "569px",
+              display: "block",
+              objectFit: "contain",
+            }}
           />
           <div className="shapes shape-one rounded-circle" />
         </div>
@@ -63,7 +70,7 @@ const KloakAI = () => {
 
         <div className="container">
           <div
-            className="title-style-nine text-center mb-60 lg-mb-30"
+            className="title-style-nine text-center mt-150"
             data-aos="fade-up"
           >
             <h2 className="main-title text-white">
@@ -82,10 +89,13 @@ const KloakAI = () => {
               unique needs and safeguarding their data.
             </p>
           </div>
-          {/* /.title-style-nine */}
-
-          <div className="row gx-xxl-5">
-            <Block2 />
+          <div className="title-style-nine text-center" data-aos="fade-up">
+            <h2 className="main-title text-white mt-150">
+              Personalized <span>AI Assistance</span> such as.
+            </h2>
+            <div className="row gx-xxl-5">
+              <Block2 />
+            </div>
           </div>
           {/* End .row */}
         </div>
@@ -114,10 +124,16 @@ const KloakAI = () => {
                 <img
                   width={569}
                   height={559}
-                  layout="intrinsic"
                   src="/images/assets/Image-background (2).png"
                   alt="illustration"
                   className="lazy-img main-img m-auto"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    maxWidth: "569px",
+                    display: "block",
+                    objectFit: "contain",
+                  }}
                 />
               </div>
               {/* /.illustration-holder */}
@@ -139,16 +155,13 @@ const KloakAI = () => {
             className="title-style-nine text-center mb-40 lg-mb-20"
             data-aos="fade-up"
           >
-            <h2 className="main-title text-white">
-              Co-Founders
-            </h2>
+            <h2 className="main-title text-white">Co-Founders</h2>
           </div>
           {/* /.title-style-nine */}
           <div className="row gx-xxl-6">
             <Blog />
           </div>
           {/* /.row */}
-
         </div>
       </div>
 
