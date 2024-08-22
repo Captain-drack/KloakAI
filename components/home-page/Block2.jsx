@@ -7,7 +7,7 @@ const Block2 = () => {
     },
     {
       icon: "/images/icon/Employee-info-folder.png",
-      title: "Document Management co pilo",
+      title: "Document Management co-pilot",
       description: "They can assist in organizing, categorizing, and retrieving documents, making it easier to manage and access important records.",
     },
     {
@@ -51,14 +51,6 @@ const Block2 = () => {
             </div>
             <h4 className="text-white mb-10 mt-25">{item.title}</h4>
             <p className="text-white opacity-75 mb-25">{item.description}</p>
-            <a href="#" className="arrow tran3s">
-              <img
-                src="/images/icon/icon_80.svg"
-                alt="shape"
-                width={50}
-                height={50}
-              />
-            </a>
           </div>
           {/* /.card-style-twelve */}
         </div>
